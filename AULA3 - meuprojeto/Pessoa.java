@@ -1,14 +1,10 @@
 package br.com.meuprojeto;
-
-public class Pessoa {
-
-
-	
+abstract public class Pessoa {
 	protected String nome;
-	private String telefone;
-	private String endereco;
+	protected String endereco;
+	protected String cpf;
 	
-
+	public void cadastrar() {}
 	
-	
+	public void buscar() {}
 }
