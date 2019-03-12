@@ -4,10 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		Aluno Lenicio = new Aluno("ADS");		
+		Lenicio.getCurso();
 		
-		
-		Aluno Jorge = new Aluno("ADS");		
-		Jorge.getCurso();
+		Aluno Mayara = new Aluno("ADS");		
+		Mayara.getCurso();
 		
 	}
 }
