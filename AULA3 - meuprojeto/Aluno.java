@@ -1,6 +1,6 @@
 package br.com.meuprojeto;
 
-public class Aluno extends Pessoa {
+public class Aluno extends Pessoa { //Fazendo a herança do método pessoa.
 	
 
 	public Aluno(String curso) {
