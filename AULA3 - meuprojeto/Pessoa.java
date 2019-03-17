@@ -4,7 +4,7 @@ abstract public class Pessoa {
 	protected String endereco;
 	protected String cpf;
 	
-	public void cadastrar() {}
+	public void cadastrar() {} //Método apenas definido sem implementação
 	
-	public void buscar() {}
+	public void buscar() {} //Método apenas definido sem implementação
 }
