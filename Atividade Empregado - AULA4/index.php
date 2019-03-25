@@ -2,7 +2,7 @@
 //index.php
 require "Assalariado.php";
 
-$antonio = new Assalariado(700,$_GET['nome']); //Instância
+$antonio = new Assalariado(700,"Antonio"); //Instância
 $antonio -> vencimento();
 $antonio -> cadastrar();
 
