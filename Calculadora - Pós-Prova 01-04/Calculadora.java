@@ -1,8 +1,7 @@
 public class Calculadora {
 
-	private double num1 = 0;
-	private double num2 = 0;
-	
+	private double num1 = 0;   /*  Variáveis num1 e num2 que serão usadas nas operações */
+	private double num2 = 0;   
 	
 	public double somar(double num1, double num2){
 		System.out.print (num1 + num2);
@@ -24,7 +23,4 @@ public class Calculadora {
 		System.out.print ( num1 * num2);
 		return 0;
 	}
-	
-	
 }
-
