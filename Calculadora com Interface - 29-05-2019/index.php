@@ -1,4 +1,5 @@
 <?php
+//Aproveitamos a classe já trabalhada em outro momento
 class Calculadora
 {
     private $num1;
