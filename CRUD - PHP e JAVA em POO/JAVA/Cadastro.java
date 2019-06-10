@@ -48,13 +48,14 @@ public class Cadastro extends JFrame {
 	 */
 	public Cadastro() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 364, 275);
+		setBounds(100, 100, 363, 247);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		textNome = new JTextField();
+		textNome.setToolTipText("nome");
 		textNome.setBounds(74, 52, 217, 20);
 		contentPane.add(textNome);
 		textNome.setColumns(10);
@@ -82,7 +83,7 @@ public class Cadastro extends JFrame {
 
 			}
 		});
-		btnNewButton.setBounds(75, 149, 81, 43);
+		btnNewButton.setBounds(74, 149, 82, 43);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNome = new JLabel("Nome:");
@@ -96,6 +97,18 @@ public class Cadastro extends JFrame {
 		JLabel lblMarca = new JLabel("Marca:");
 		lblMarca.setBounds(10, 115, 46, 14);
 		contentPane.add(lblMarca);
+		
+		JButton btnNewButton_1 = new JButton("Buscar");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				Buscar b = new Buscar();
+				b.setVisible(true);
+				
+			}
+		});
+		btnNewButton_1.setBounds(196, 149, 89, 43);
+		contentPane.add(btnNewButton_1);
 	}
 	private static void addPopup(Component component, final JPopupMenu popup) {
 		component.addMouseListener(new MouseAdapter() {
